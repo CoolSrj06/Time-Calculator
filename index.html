@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="center"> 
+            <div id="clock"></div>
+        </div>
+    </nav>
+    
+    <!-- Main container with two halves: video player and calculator -->
+    <div class="main-container">
+        <div class="content">
+            <input class="link" type="text" id="videoUrl" placeholder="Enter video link here">
+            <input type="button" id="play" value="Play">
+            <div class="vedio-player">
+                <div id="player"></div>
+            </div>
+            
+        </div>
+
+         <!-- Wrap container inside a new div with class 'box' -->
+        <div class="box">
+            <div class="container">
+                <h1>Time Calculator</h1>
+                <div id="video-duration">
+                    <h2>Video Duration</h2>
+                    <p id="vd"></p>
+                </div>
+                <div id="current-time">
+                    <h2>Duration Watched</h2>
+                    <p id="ct"></p>
+                </div>
+                <div id="playback-speed">
+                    <h2>Playback Speed</h2>
+                    <p id="ps"></p>
+                </div>
+                <br>
+                <br>
+                <h2 class="video-ends-at"></h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
+    
